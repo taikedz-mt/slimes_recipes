@@ -1,6 +1,6 @@
 cslime = "mobs_slimes:green_slimeball"
 
-if minetest.modpath("mobs_zombie") then
+if minetest.get_modpath("mobs_zombie") then
 
 	zflesh = "mobs_zombie:rotten_flesh"
 
