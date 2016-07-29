@@ -1,8 +1,8 @@
-cslime = "mobs_slimes:green_slimeball"
+local cslime = "mobs_slimes:green_slimeball"
 
 if minetest.get_modpath("mobs_zombie") then
 
-	zflesh = "mobs_zombie:rotten_flesh"
+	local zflesh = "mobs_zombie:rotten_flesh"
 
 	minetest.register_craft({
 		output = "mobs:meat_raw",
